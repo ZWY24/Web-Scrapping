@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 from constants import HEADERS
 from utils import save_to_csv
 
-
 def make_request(url, headers, params):
     response = requests.get(url, headers=headers, params=params)
     response.raise_for_status()

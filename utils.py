@@ -12,3 +12,4 @@ def save_to_csv(dataframe):
         dataframe.to_csv('zhihu_data.csv', mode='w', index=False)
     else:
         dataframe.to_csv('zhihu_data.csv', mode='a', header=False, index=False)
+
